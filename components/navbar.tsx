@@ -39,7 +39,11 @@ export default function Navbar() {
             <Button variant="outline" size="icon">
               <User className="h-5 w-5" />
             </Button>
-            <Button>Sign In</Button>
+            <Button>
+            <Link href="/auth/login" className="text-white">
+                  Sign In
+                </Link>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
